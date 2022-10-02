@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: lightgray;
+}
+.nav_top{
+    width: 100vw;
+    height: 12vh;
+    background-color: red;
+    position: fixed;
+}
+.title{
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    text-align: center;
+    margin: 3vh auto;
+    font-size: 2.5em;
+}
+.container{
+    width: 30vw;
+    height: 100vh;
+    background-color: aliceblue;
+    float: left;
+}
+.mid{
+    display: inline-block;
+    border: none;
+}
+.left{
+    background-color: #680000;
+    width: 70px;
+    height: 100px;
+}
