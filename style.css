@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body{
     position: fixed;
@@ -9,8 +10,10 @@ body{
     height: 100vh;
     background-color: gray;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(img/wall_pokedexjpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
 .nav_top{
     width: 100vw;
     height: 100px;
@@ -25,24 +28,33 @@ body{
     background-position: center;
 }
 .nav_left{
-    background-color: lightgray;
+    border-radius: 32px;
+    background-image: url(img/wall-pokedex.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     width: 450px;
-    height: 70vh;
+    height: 650px;
     text-align: center;
-    margin-left: 70px;
+    margin-left: 7vw;
     position: fixed;
 }
 .box_left{
-   margin-top: 90px;
+   margin: 6vh;
 }
 .box_mid{
-    margin-left: 600px;
-    height: 70vh;
+    border-radius: 18px;
+    margin-left: 600px;    
+    height: 650px;
     width: 60vw;
-    background-color: lightgray;
+    background-image: url(img/wall-pokemon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .title_pokedex{
-    margin-bottom: 32px;
+    margin-bottom: 3vh;
+    margin-top: 8vh;
     color: black;
     font-size: 36px;
 }
@@ -62,22 +74,30 @@ footer{
     margin-top: 120px;
 }
 .numero{
-    padding-top: 15px;
+    padding-top: 1vh;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+}
+.nome{
     text-align: center;
     font-size: 36px;
     font-weight: 700;
 }
-.nome{
-    margin-top: 15px;
-    text-align: center;
-    font-size: 36px;
-    font-weight: 700;
+.title_pokemon{
+    border-top: 8px solid #4bb7ff;
+    border-left: 8px solid #4bb7ff;
+    border-right: 8px solid #4bb7ff;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #e3f4ff
 }
 .img_tipo{
     margin-top: 50px;
     text-align: center;
 }
 .tipo{
+    border: 1px solid #07006b;
+    border-radius: 18px;
     background-color: #4bb7ff;
     width: 400px;
     padding: 20px;
@@ -88,6 +108,8 @@ footer{
     font-weight: 700;
 }
 .tipo_2{
+    border: 1px solid #07006b;
+    border-radius: 18px;
     background-color: yellow;
     width: 400px;
     padding: 20px;
