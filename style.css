@@ -14,6 +14,16 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+p{    
+    margin-top: 40px;
+}
+footer{
+    text-align: center;
+    margin-top: 120px;
+}
+small{
+    color: #fff;
+}
 .nav_top{
     width: 100vw;
     height: 100px;
@@ -22,9 +32,9 @@ body{
     margin-top: 18px;
     text-align: center;
     padding: 50px;
-    background-image: url(https://pokedex.sleduardo.dev/img/logo.svg);
-    background-repeat: no-repeat;
+    background-image: url(https://pokedex.sleduardo.dev/img/logo.svg);   
     background-size: 200px;
+    background-repeat: no-repeat;
     background-position: center;
 }
 .nav_left{
@@ -40,7 +50,7 @@ body{
     position: fixed;
 }
 .box_left{
-   margin: 6vh;
+   margin: 3vh;
 }
 .box_mid{
     border-radius: 18px;
@@ -66,17 +76,10 @@ body{
 .link:hover{
     color: red;
 }
-p{    
-    margin-top: 40px;
-}
-footer{
-    text-align: center;
-    margin-top: 120px;
-}
 .numero{
     padding-top: 1vh;
     text-align: center;
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 700;
 }
 .nome{
@@ -85,9 +88,7 @@ footer{
     font-weight: 700;
 }
 .title_pokemon{
-    border-top: 8px solid #4bb7ff;
-    border-left: 8px solid #4bb7ff;
-    border-right: 8px solid #4bb7ff;
+    border-top: 6px solid #4bb7ff;
     border-radius: 20px 20px 0px 0px;
     background-color: #e3f4ff
 }
@@ -96,7 +97,7 @@ footer{
     text-align: center;
 }
 .tipo{
-    border: 1px solid #07006b;
+    border: 1px solid #07006baf;
     border-radius: 18px;
     background-color: #4bb7ff;
     width: 400px;
@@ -105,10 +106,11 @@ footer{
     text-align: center;
     font-size: 26px;
     color: black;
-    font-weight: 700;
+    font-weight: 700;    
+    box-shadow: 0px 3px 10px rgb(82, 82, 82);
 }
 .tipo_2{
-    border: 1px solid #07006b;
+    border: 1px solid #07006baf;
     border-radius: 18px;
     background-color: yellow;
     width: 400px;
@@ -118,4 +120,5 @@ footer{
     font-size: 26px;
     color: black;
     font-weight: 700;
+    box-shadow: 0px 3px 10px rgb(82, 82, 82);
 }
